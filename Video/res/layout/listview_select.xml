@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:paddingTop="2dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" >
+
+        <ImageView
+            android:id="@+id/imageSelect_bg"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="#494949"
+            android:contentDescription="@null"
+            android:src="@drawable/loadingimg" />
+
+        <TextView
+            android:id="@+id/imageSelect_fee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#4cde53"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:includeFontPadding="false"
+            android:textColor="@android:color/white"
+            android:textSize="13.5sp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/imageSelect_videoKeep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:background="#99ccff"
+            android:text="是否点击"
+            android:visibility="invisible"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/imageSelect_videoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:lines="2"
+        android:text="videoName"
+        android:textColor="#4A4A4A"
+        android:textSize="16sp" />
+
+    
+
+</LinearLayout>
